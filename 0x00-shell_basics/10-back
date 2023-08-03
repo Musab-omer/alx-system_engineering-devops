@@ -1,3 +1,2 @@
 #!/bin/bash
-currentDir=$(pwd)
-cd "$OLDPWD"
+cd $(pwd)/..
