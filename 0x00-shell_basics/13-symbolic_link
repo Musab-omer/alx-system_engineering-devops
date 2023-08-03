@@ -1,2 +1,2 @@
 #!/bin/bash
-In -s /bin/ls /alx-system_engineering-devops/0x00-shell_basic/__ls__
+ln -s /bin/ls $(pwd)__ls__
