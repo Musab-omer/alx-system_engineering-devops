@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo chown vincent $(pwd)
-chgrp staff $(pwd)
+sudo chown vincent _hello
+chgrp staff _hello
