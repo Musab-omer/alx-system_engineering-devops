@@ -1,2 +1,2 @@
 #!/bin/bash
-find -empty | cut -d '/' -f2
+find . -name '.*' -type f -empty -printf '%P\n' -o -name '.*' -type d -empty -printf '%P\n'
